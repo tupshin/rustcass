@@ -7,3 +7,6 @@ LD_LIBRARY_PATH=:/usr/lib/llvm-3.4/lib/:/usr/local/lib #if those are the correct
 
  rustc src/cassandra.rs
 
+
+
+Current state is very rough. Havnen't tried to clean it up or abstract away the C ugliness yet. The create keyspace, create table, and insert row commands all complete succesfully.
