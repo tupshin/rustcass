@@ -1,0 +1,12 @@
+[package]
+
+name = "cassandra-examples"
+version = "0.1.0"
+authors = [ "tupshin@tupshin.com" ]
+
+[[bin]]
+
+name = "cassandra" # the name of the executable to generate
+
+[dependencies.color]
+
