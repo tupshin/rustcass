@@ -6,3 +6,5 @@ authors = [ "tupshin@tupshin.com" ]
 [[bin]]
 name = "basic" # the name of the executable to generate
 
+[dependencies.rust-cassandra-internal-api]
+git = "https://github.com/tupshin/rust-cassandra-internal-api"
